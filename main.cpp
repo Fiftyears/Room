@@ -7,7 +7,7 @@ int main()
 	LinkStack<int> st;
 	int n, q, choice = -1;
 
-	while (choice != 8)
+	while (choice != 7)
 	{
 		cout << "栈功能:  1.入栈 2.出栈 3.判空 4.取得栈顶元素 5.检测栈长度 6.销毁 7.退出" << endl;
 		cout << "请输入你的选择:";
@@ -15,7 +15,7 @@ int main()
 		switch (choice)
 		{
 		case 1:
-			cout << "请输入进栈的整数（可改）:";
+			cout << "请输入进栈的数字（可改，默认为int）:";
 			cin >> q;
 			st.Push(q);
 			break;
